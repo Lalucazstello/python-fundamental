@@ -1,31 +1,20 @@
+# latihan konversi satuan temperature
 
-# program konversi celcius ke saruan lain
+# program konversi celcius ke satuan lain
 
 print("\nPROGRAM KONVERSI TEMPERATUR\n")
 
-celcius = float((input("Masukkan suhu dalam celcius : ")))
-print("Suhu adalah",celcius,"celcius")
+celcius = float(input('Masukan suhu dalam celcius : '))
+print("suhu adalah",celcius, "Celcius")
 
 # reamur
 reamur = (4/5) * celcius
-print("Suhu dalam reamur adalah",reamur,"reamur")
+print("suhu dalam reamur adalah ",reamur, "Reamur")
 
 # fahrenheit
 fahrenheit = ((9/5) * celcius) + 32
-print("Suhu dalam fahrenheit adalah",fahrenheit,"fahrenheit")
+print("suhu dalam fahrenheit adalah ",fahrenheit, "Fahrenheit")
 
-# kelvin
+# Kelvin
 kelvin = celcius + 273
-print("Suhu dalam kelvin adalah",kelvin,"kelvin")
-
-# latihan konversi fahrenheit ke kelvin
-fahrenheit = float(input('Masukkan Suhu dalam Fahrenheit: '))
-celcius = ((5/9) * fahrenheit) - 32
-kelvin = celcius + 273
-print("Suhu dalam Kelvin:", kelvin)
-
-# kelvin ke fahrenheit
-kelvin = float(input('Masukkan suhu dalam kelvin: '))
-celcius = kelvin - 273
-fahrenheit = ((9/5) * celcius) + 32
-print("suhu dalam fahrenheit:", fahrenheit)
+print("suhu dalam kelvin adalah ",kelvin, "Kelvin")
